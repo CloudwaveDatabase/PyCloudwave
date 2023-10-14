@@ -1,0 +1,104 @@
+CLOUD_TYPE_INTEGER                 = 0
+CLOUD_TYPE_CHAR                    = 1
+CLOUD_TYPE_VARCHAR                 = 2
+CLOUD_TYPE_FLOAT                   = 3
+CLOUD_TYPE_DOUBLE                  = 4
+CLOUD_TYPE_DATE                    = 5
+CLOUD_TYPE_TIME                    = 6
+CLOUD_TYPE_TIMESTAMP               = 7
+CLOUD_TYPE_BOOLEAN                 = 8
+CLOUD_TYPE_ARRAY                   = 9
+CLOUD_TYPE_TINY_DECIMAL            = 10
+CLOUD_TYPE_SMALL_DECIMAL           = 11
+CLOUD_TYPE_BIG_DECIMAL             = 12
+CLOUD_TYPE_SINGLE_CHAR             = 13
+CLOUD_TYPE_BINARY                  = 14
+CLOUD_TYPE_VARBINARY               = 15
+CLOUD_TYPE_SINGLE_BYTE             = 16
+CLOUD_TYPE_LONG                    = 17
+CLOUD_TYPE_INTERVAL                = 18
+CLOUD_TYPE_REVERSE                 = 19
+CLOUD_TYPE_BLOB                    = 20
+CLOUD_TYPE_CLOB                    = 21
+CLOUD_TYPE_LONGVARBINARY           = 22
+CLOUD_TYPE_LONGVARCHAR             = 23
+CLOUD_TYPE_ROWID                   = 24
+CLOUD_TYPE_BIG_INTEGER             = 25
+CLOUD_TYPE_SMALL_INTEGER           = 26
+CLOUD_TYPE_TINY_INTEGER            = 27
+CLOUD_TYPE_DAY_TIME_INTERVAL       = 28
+CLOUD_TYPE_YEAR_MONTH_INTERVAL     = 29
+CLOUD_TYPE_TIME_INTERVAL           = 30
+CLOUD_TYPE_PAIR                    = 31
+CLOUD_TYPE_BYTE                    = 32
+CLOUD_TYPE_BFILE                   = 33
+
+#3.6.6 JDBC
+CLOUD_TYPE_INTS                    = 34
+CLOUD_TYPE_JAVA_STRING             = 35
+CLOUD_TYPE_X1_LONG                 = 36
+CLOUD_TYPE_X2_LONG                 = 37
+CLOUD_TYPE_X_LONG                  = 38
+CLOUD_TYPE_X_BYTES                 = 39
+CLOUD_TYPE_RANGE_STRING            = 40
+CLOUD_TYPE_DEFAULT                 = 41
+CLOUD_TYPE_RANK                    = 42
+CLOUD_TYPE_COLLECTOR_SELECTION     = 43
+CLOUD_TYPE_GROUPING                = 44
+CLOUD_TYPE_NULL                    = 45
+CLOUD_TYPE_NOTHING                 = 46
+CLOUD_TYPE_MEDIA                   = 47
+CLOUD_TYPE_FISCAL_YEAR             = 48
+CLOUD_TYPE_FISCAL_QUARTER          = 49
+CLOUD_TYPE_YEAR_MONTH              = 50
+CLOUD_TYPE_YEAR_MONTH_DAY          = 51
+CLOUD_TYPE_NUMBER                  = 52
+
+#2021.9.12 HU give wei JDBC
+CLOUD_TYPE_DOUBLE_LONG             = 53
+CLOUD_TYPE_COMPACT_DATE            = 54
+CLOUD_TYPE_SHARED_COLUMN           = 55
+CLOUD_TYPE_ZONE_AUTO_SEQUENCE      = 56
+CLOUD_TYPE_JSON_ARRAY              = 57
+CLOUD_TYPE_JSON_KEYWORD            = 58
+CLOUD_TYPE_JSON_BINARY             = 59
+CLOUD_TYPE_JSON_TEXT               = 60
+CLOUD_TYPE_JSON_OBJECT             = 61
+CLOUD_TYPE_JSON_BIGDECIMAL         = 62
+
+CLOUD_TYPE_OTHER                   = -1
+
+
+
+
+DECIMAL = 0
+TINY = 1
+SHORT = 2
+LONG = 3
+FLOAT = 4
+DOUBLE = 5
+NULL = 6
+TIMESTAMP = 7
+LONGLONG = 8
+INT24 = 9
+DATE = 10
+TIME = 11
+DATETIME = 12
+YEAR = 13
+NEWDATE = 14
+VARCHAR = 15
+BIT = 16
+JSON = 245
+NEWDECIMAL = 246
+ENUM = 247
+SET = 248
+TINY_BLOB = 249
+MEDIUM_BLOB = 250
+LONG_BLOB = 251
+BLOB = 252
+VAR_STRING = 253
+STRING = 254
+GEOMETRY = 255
+
+CHAR = TINY
+INTERVAL = ENUM

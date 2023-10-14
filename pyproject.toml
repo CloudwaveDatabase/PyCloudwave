@@ -1,0 +1,51 @@
+[project]
+name = "PyCloudwave"
+description = "Pure Python Cloudwave Driver"
+authors = [
+    {name = "junfenghe", email = "junfenghe.cloud@qq.com"}
+]
+dependencies = []
+
+requires-python = ">=3.7"
+readme = "README.md"
+license = {text = "MIT License"}
+keywords = ["cloudwave"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Database",
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+"rsa" = [
+    "cryptography"
+]
+"ed25519" = [
+    "PyNaCl>=1.4.0"
+]
+
+[project.urls]
+"Project" = "https://github.com/PyMySQL/PyMySQL"
+"Documentation" = "https://pycloudwave.readthedocs.io/"
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+namespaces = false
+include = ["pycloudwave*"]
+exclude = ["tests*", "pycloudwave.tests*"]
+
+[tool.setuptools.dynamic]
+version = {attr = "pycloudwave.VERSION"}
