@@ -1,0 +1,15 @@
+*.pyc
+*.pyo
+/.cache
+/.coverage
+/.idea
+/.tox
+/.venv
+/.vscode
+/PyMySQL.egg-info
+/build
+/dist
+/docs/build
+/pycloudwave/tests/databases.json
+__pycache__
+Pipfile.lock
